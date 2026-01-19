@@ -1,14 +1,172 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
 body {
-   background-color: aqua;
-   text-align: center;
+   background-color: #0f172a;
+   color: #e5e7eb;
+   line-height: 1.6;
+   
+}
+
+
+.container {
+    max-width: 595px;
+    max-height: 842px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #020617;
+    border-radius: 12px;
+    box-shadow: 0 0 40px black;
+    
+}
+
+header {
+    text-align: cente;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
 
 }
 
+#hero {
+    display: flex;
+    justify-content: space-around;
+
+
+}
 
 h1 {
-    margin: 10px 700px;
-    color: grey;
-    border: 1px solid black;
-    border-radius:50px 30% 30% 10%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 22px;
 }
+
+#profile-img {
+    width: 150px;
+    height: 145px;
+    border-radius: 50%;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 9px;
+    background: #38bdf8;
+    color: #020617;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn.secondary {
+    background: #1e293b;
+    color: #e5e7eb;
+    border: 1px solid #38bdf8;
+}
+
+#contact-section {
+    margin-bottom: 15px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.contact-btns {
+    display: flex;
+
+}
+
+#git-btn {
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    background-image: url("/GitHub_Invertocat_White.png");
+    background-size: cover;
+    border: 0px;
+    margin-right: 5px;
+}
+
+#in-btn {
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    background-image: url("/InBug-White.png");
+    background-size: cover;
+    border: 0px;
+    margin-left: 2px;
+}
+
+.link-decor {
+    text-decoration: none;
+    color:white;
+}
+
+section {
+    margin-bottom: 10px;
+    font-size: 12px;
+
+}
+
+h3 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+ul {
+    
+    list-style: none;
+
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+
+
+#skills-section {
+    padding-right: 5px;
+}
+
+#profile-summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+#profile-section {
+    width: 400px;
+}
+.project {
+    margin-bottom: 15px;
+}
+
+.project a {
+    color:#38bdf8;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 10px;
+    opacity: 0.6;
+}
+
