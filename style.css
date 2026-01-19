@@ -1,0 +1,14 @@
+
+body {
+   background-color: aqua;
+   text-align: center;
+
+}
+
+
+h1 {
+    margin: 10px 700px;
+    color: grey;
+    border: 1px solid black;
+    border-radius:50px 30% 30% 10%;
+}
