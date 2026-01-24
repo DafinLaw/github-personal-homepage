@@ -15,6 +15,14 @@ body {
 }
 
 
+#btn-status {
+    font-size: 8px;
+    color: #ff000099;
+    margin-top: 2px;
+}
+
+
+
 .container {
     max-width: 595px;
     max-height: 842px;
