@@ -31,7 +31,7 @@
                     <h2>Junior Front-End Developer</h2>
                     <p>HTML | CSS | JavaScript</p>
 
-                    <button class="buttons" id="btn" onclick="generatePDF()">
+                    <button class="buttons" id="btn" onclick="window.print()">
                         Download PDF
                     </button>
                 </div>
@@ -77,12 +77,12 @@
         <div id="profile-summary">
             <section id="skills-section">
                 <p class="color-subtitle sum-padding">Skills:</p>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3 (flexbox,grid)</li>
-                    <li>JavaScript</li>
-                    <li>Git & Github</li>
-                    <li>Netlify / Github Pages</li>
+                <ul id="skill-list">
+                    <li class="skill">HTML5</li>
+                    <li class="skill">CSS3 (flexbox,grid)</li>
+                    <li class="skill">JavaScript</li>
+                    <li class="skill">Git & Github</li>
+                    <li class="skill">Netlify / Github Pages</li>
                 </ul>
             </section>
             <div>
@@ -128,27 +128,31 @@
         </div>
         <section id="experience">
             <h3>Experience</h3>
-            <p>Teleperformance — Customer Support & Appeals Processing
-                <ul  class="vertical">
-                    <li>- communication</li>
+            <h4>Teleperformance — Customer Support & Appeals Processing</h4>
+                <ul>
+                    <li> Reviewed and processed appeals in accordance with internal Policies and compliance standards</li>
 
-                    <li>- problem solving</li>
+                    <li>Documented decisions clearly to ensure audit traceability</li>
 
-                    <li>- documentation </li>
+                    <li>Managed high-volume case queues while maintaining accuracy and response deadlines</li>
 
-                    <li>- responsibility</li>
+                    <li>Indentified edge case and escalated issues to senior teams</li>
 
 
                 </ul>
-            </p>
+            
             <h3>Education</h3>
-            <p>IT School — Cybersecurity Course
-                Title: Programmer-Helper</p>
+            <h4>IT School — Cybersecurity Course
+                        Title: Programmer-Helper </h4>
+                        <ul>
+                            <li>Splunk familiarity/Siem</li>
+                            <li>Basic Networking</li>
+                            <li>Linux fundamentals</li>
+                            <li>Confidentiality, Integrity and Availability</li>
+                        </ul>
         </section>
 
-        <footer>
-            <p class="a-footer">© 2026 Paul Dascalu - Built with HTML & CSS</p>
-        </footer>
+        
 
       </div>
 
