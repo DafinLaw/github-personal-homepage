@@ -105,7 +105,8 @@
                     </div>
                     <div class="item item-2">
                         <h4> - Password Generator</h4>
-                        <p>It generates random passwords featuring length and character selectors | Built with HTML, CSS & JavaScript.</p>
+                        <p class="project-p">Built dynamic password generator with customizable length and character sets
+                            Implemented conditional logic and DOM manipulation for real-time output updates | Built with HTML, CSS & JavaScript.</p>
                         <div class="column-div">
                             <a href="https://dafinlaw.github.io/password-generator/" target="_blank">[Live Demo]</a>
                             <a href="https://github.com/DafinLaw/password-generator" target="_blank">[Source Code]</a>
@@ -113,7 +114,8 @@
                     </div>
                     <div class="item item-3">
                         <h4> - Leads Tracker Extension</h4>
-                        <p>A browser extension capable of storing links between sessions in the local storage. | Built with HTML, CSS & javaScript.</p>
+                        <p class="project-p">Developed browser extension using localStorage for persisten session data
+                            Implemented CRUD logic and dynamic rendering for saved links | Built with HTML, CSS & javaScript.</p>
                         <div class="column-div">
                             <a href="https://dafinlaw.github.io/Leads-tracker/" target="_blank">[Live Demo]</a>
                             <a href="https://github.com/DafinLaw/Leads-tracker" target="_blank">[Source Code]</a>
@@ -136,7 +138,7 @@
 
                     <li>Managed high-volume case queues while maintaining accuracy and response deadlines</li>
 
-                    <li>Indentified edge case and escalated issues to senior teams</li>
+                    <li>Identified edge cases and escalated issues to senior teams</li>
 
 
                 </ul>
@@ -145,10 +147,10 @@
             <h4>IT School — Cybersecurity Course
                         Title: Programmer-Helper </h4>
                         <ul>
-                            <li>Splunk familiarity/Siem</li>
-                            <li>Basic Networking</li>
-                            <li>Linux fundamentals</li>
-                            <li>Confidentiality, Integrity and Availability</li>
+                            <li>Familiarity with Linux environments</li>
+                            <li>Basic networking concepts</li>
+                            <li>Understanding of data security principles(CIA)</li>
+                            <li>Introductory SIEM exposure (Splunk)</li>
                         </ul>
         </section>
 
@@ -156,23 +158,8 @@
 
       </div>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-      <script>
-        function generatePDF() {
-            const element = document.getElementById('container');
+      
 
-            const opt = {
-                margin:         0.3,
-                filename:       'Paul_Dascalu_CV_WebDev.pdf',
-                image:          { type: 'jpeg', quality: 1 },
-                html2canvas:    { scale: 2 },
-                jsPDF:          { unit: 'in', format: 'a4', orientation: 'portrait' }
-            };
-
-            html2pdf().set(opt).from(element).save();
-        }
-      </script>
-</html>
 
  </body>
 </html>
