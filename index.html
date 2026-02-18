@@ -1,26 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title> Paul | Junior Front-End Developer</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-      <div class="container">
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="./index.html">Web Dev</a>
+                <a href="./l1-support.html">L1 Support</a>
+                <a href="./quality-assessor.html">Quality Assessor</a>
+            </div>
+        </div>  
+      <div class="container" id="container">
         <header>
             <div id="hero">
                 <div>
-                    <img src="./dafin.jpeg" id="profile-img" alt="Paul Dascalu">
+                    <img src="./images/dafin.jpeg" id="profile-img" alt="Paul Dascalu">
                 </div>
                 <div>
                     <h1>Dascălu Paul-Laurențiu</h1>
                     <h2>Junior Front-End Developer</h2>
                     <p>HTML | CSS | JavaScript</p>
 
-                    <div class="buttons">
-                        <a href="./Dascalu_Paul_Laurentiu-cv.pdf" download class="btn">Download PDF</a>
-                    </div>
+                    <button class="buttons" id="btn" onclick="generatePDF()">
+                        Download PDF
+                    </button>
                 </div>
             </div>
 
@@ -149,6 +156,13 @@
 
       </div>
 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+      <script>
+        function generatePDF() {
+            const element = document.getElementById('container');
+            html2pdf().from(element).save('Paul_Dascalu_CV.pdf');
+        }
+      </script>
 
  </body>
 </html>

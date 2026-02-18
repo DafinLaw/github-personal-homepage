@@ -14,14 +14,34 @@ body {
    
 }
 
-
-#btn-status {
-    font-size: 8px;
-    color: #ff000099;
-    margin-top: 2px;
+.dropdown {
+    position: sticky;
+    top: 10px;
+    right: 20px;
+    left: 5px;
+    z-index: 1000;
+    left: 5px;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #020617;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    padding: 10px 5px;
+    z-index: 1000;
+    left: 5px;
+}
 
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: right;
+
+}
 
 .container {
     max-width: 595px;
@@ -71,12 +91,14 @@ header h2 {
     margin-top: 5px;
 }
 
-.btn {
+
+#btn {
     display: inline-block;
     padding: 4px 8px;
-    background: #38bdf8;
+    background-color: #38bdf8;
     color: #020617;
     text-decoration: none;
+    border: 0px;
     border-radius: 6px;
     margin: 5px;
     font-weight: bold;
@@ -103,7 +125,7 @@ header h2 {
     background-color: transparent;
     width: 15px;
     height: 15px;
-    background-image: url("./GitHub_Invertocat_White.png");
+    background-image: url("./images/GitHub_Invertocat_White.png");
     background-size: cover;
     border: 0px;
     margin-right: 5px;
@@ -113,7 +135,7 @@ header h2 {
     background-color: transparent;
     width: 15px;
     height: 15px;
-    background-image: url("./placeholder.png");
+    background-image: url("./images/placeholder.png");
     background-size: cover;
     border: 0px;
     margin-right: 5px;
@@ -123,7 +145,7 @@ header h2 {
     background-color: transparent;
     width: 15px;
     height: 15px;
-    background-image: url("./mail.png");
+    background-image: url("./images/mail.png");
     background-size: cover;
     border: 0px;
     margin-right: 5px;
@@ -133,7 +155,7 @@ header h2 {
     background-color: transparent;
     width: 15px;
     height: 15px;
-    background-image: url("./InBug-White.png");
+    background-image: url("./images/InBug-White.png");
     background-size: cover;
     border: 0px;
     margin-left: 2px;
