@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Paul | L1 Support</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+         <header>
+            <nav>
+                <div class="dropdown">
+                    <button class="dropbtn">Menu</button>
+                    <div class="dropdown-content">
+                        <ul id="options-menu">
+                            <li><a href="./index.html">Web Dev</a></li>
+                            <li><a href="./l1-support.html">L1 Support</a></li>
+                            <li><a href="./quality-assessor.html">Quality Assessor</a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </nav> 
+        </header>
+      <div class="container" id="container">
+        <header>
+            <div id="hero">
+                <div>
+                    <img src="./images/dafin.jpeg" id="profile-img" alt="Paul Dascalu">
+                </div>
+                <div>
+                    <h1>Dascălu Paul-Laurențiu</h1>
+                    <h2>L1 Support</h2>
+                    <p></p>
+
+                    <button class="buttons" id="btn" onclick="window.print()">
+                        Download PDF
+                    </button>
+                </div>
+            </div>
+
+        </header>
+        <div id="contact-section">
+            <div class="contact-btns">
+                    <div id="placeholder-btn"></div>
+                <p>
+                    Brașov
+                </p>
+            </div>
+
+            <div class="contact-btns">
+                    <div id="mail-btn"></div>
+                <p>
+                    surname.name@gmail.com
+                </p>
+            </div>
+
+            <div class="contact-btns">
+                <a href="https://github.com/DafinLaw" target="_blank" class="link-decor">
+                    <div id="git-btn"></div>
+                </a>
+                <p>
+                    <a href="https://github.com/DafinLaw" target="_blank" class="link-decor">Github</a>
+                </p>
+
+            </div>
+            
+            <div class="contact-btns">
+                <p>
+                    <a href="https://www.linkedin.com/in/dasc%C4%83lu-paul-b7093123a/" target="_blank" class="link-decor">Linked</a>
+                </p>
+                <a href="https://www.linkedin.com/in/dasc%C4%83lu-paul-b7093123a/" target="_blank" class="link-decor">
+                    <div id="in-btn"></div>
+                </a>
+            </div>
+  
+        </div>
+    
+        <div id="profile-summary">
+            <section id="skills-section">
+                <p class="color-subtitle sum-padding">Skills:</p>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3 (flexbox,grid)</li>
+                    <li>JavaScript</li>
+                    <li>Git & Github</li>
+                    <li>Netlify / Github Pages</li>
+                </ul>
+            </section>
+            <div>
+            <section id="profile-section">
+                
+                    <h3>Profile</h3>
+                    <p>
+                        Motivated junior front-end developer passionate about building clean, functional, and modern web interfaces.
+                        Currently focused on improving JavaScript skills and responsive design.
+                    </p>
+                
+            </section>
+        
+            <section class="project">
+                <h3 class="sum-padding">Projects</h3>
+
+                <div class="container-1">
+                    <div class="item item-1">
+                        <h4> - Business Card</h4>
+                        <p>A simple business card desgin with added shadows and a hover effect, built with HTML & CSS.</p>
+                        <div class="column-div">
+                            <a href="https://dafinlaw.github.io/business-card1/" target="_blank">[Live Demo]</a>
+                            <a href="https://github.com/DafinLaw/business-card1" target="_blank">[Source Code]</a>
+                        </div>
+                    </div>
+                    <div class="item item-2">
+                        <h4> - Space Layout Landing Page</h4>
+                        <p>Space themed landing page layout built with HTML & CSS.</p>
+                        <div class="column-div">
+                            <a href="https://dafinlaw.github.io/space-exploration-layout/" target="_blank">[Live Demo]</a>
+                            <a href="https://github.com/DafinLaw/space-exploration-layout" target="_blank">[Source Code]</a>
+                        </div>
+                    </div>
+                    <div class="item item-3">
+                        <h4> - Hometown Homepage</h4>
+                        <p>A hometown presentation webpage describing usual activities done by it's citizens layout built with HTML & CSS.</p>
+                        <div class="column-div">
+                            <a href="https://dafinlaw.github.io/hometown-homepage/" target="_blank">[Live Demo]</a>
+                            <a href="https://github.com/DafinLaw/hometown-homepage" target="_blank">[Source Code]</a>
+                        </div>
+                    </div>
+                    <div class="item item-4">
+                        <h4> - Rabbit Counter App</h4>
+                        <p>A rabbit themed app for counting the number of rabbits spotted in the wild built with HTML, CSS & JavaScript.</p>
+                        <div class="column-div">
+                            <a href="https://dafinlaw.github.io/rabbit-counter/" target="_blank">[Live Demo]</a>
+                            <a href="https://github.com/DafinLaw/rabbit-counter" target="_blank">[Source Code]</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </div>
+        </div>
+        <section id="experience">
+            <h3>Experience</h3>
+            <p>Teleperformance — Customer Support & Appeals Processing
+                <ul  class="vertical">
+                    <li>- communication</li>
+
+                    <li>- problem solving</li>
+
+                    <li>- documentation </li>
+
+                    <li>- responsibility</li>
+
+
+                </ul>
+            </p>
+            <h3>Education</h3>
+            <p>IT School — Cybersecurity Course
+                Title: Programmer-Helper</p>
+        </section>
+
+        <footer>
+            <p>© 2026 Paul Dascalu - Built with HTML & CSS</p>
+        </footer>
+
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+      <script>
+        function generatePDF() {
+            const element = document.getElementById('container');
+            html2pdf().from(element).save('Paul_Dascalu_CV.pdf');
+        }
+      </script>
+
+ </body>
+</html>

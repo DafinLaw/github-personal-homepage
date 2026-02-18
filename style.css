@@ -7,8 +7,8 @@
 }
 
 body {
-   background: linear-gradient(to right, #9c95dc, #c19ab7);
-   color: #170a1c;
+   background-color: #0f172a;
+   color: #e5e7eb;
    line-height: 1.6;
    text-shadow: 0 0 5px rgba(1, 1, 1, 0.5);
    
@@ -75,18 +75,17 @@ a {
 
 .container {
     max-width: 595px;
-    max-height: 842px;
+    max-height: 900px;
     margin: 40px auto;
     padding: 30px;
-    background: #228cdb;
+    background: #020617;
     border-radius: 12px;
     box-shadow: 0 0 40px black;
     border: 1px solid rgba(0, 0 , 139, 0.5);
-    
 }
 
 header {
-    text-align: cente;
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -153,8 +152,8 @@ header h2 {
 
 #git-btn {
     background-color: transparent;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background-image: url("./images/GitHub_Invertocat_White.png");
     background-size: cover;
     border: 0px;
@@ -163,8 +162,8 @@ header h2 {
 
 #placeholder-btn {
     background-color: transparent;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background-image: url("./images/placeholder.png");
     background-size: cover;
     border: 0px;
@@ -173,8 +172,8 @@ header h2 {
 
 #mail-btn {
     background-color: transparent;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background-image: url("./images/mail.png");
     background-size: cover;
     border: 0px;
@@ -183,8 +182,8 @@ header h2 {
 
 #in-btn {
     background-color: transparent;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     background-image: url("./images/InBug-White.png");
     background-size: cover;
     border: 0px;
@@ -203,7 +202,7 @@ section {
 }
 
 h3 {
-    color: #170a1c;
+    color: #38bdf8;
     margin-bottom: 10px;
 
 }
@@ -325,3 +324,49 @@ footer {
     opacity: 0.6;
 }
 
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    .container, .container * {
+        visibility: visible;
+    }
+
+    .container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        box-shadow: none;
+        border: none;
+        text-shadow: none;
+    }
+    h2, h3 {
+        text-shadow: none;
+        color: black;
+    }
+
+    .project a {
+        color: black;
+    }
+
+
+   button {
+    visibility: hidden;
+   }
+    p {
+    color: black;
+   }
+   .color-subtitle {
+    color: black;
+   }
+
+   footer .a-footer {
+    visibility: hidden;
+    
+   }
+
+}
