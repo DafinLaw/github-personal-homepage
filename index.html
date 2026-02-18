@@ -31,7 +31,7 @@
                     <h2>Junior Front-End Developer</h2>
                     <p>HTML | CSS | JavaScript</p>
 
-                    <button class="buttons" id="btn" onclick="window.print()">
+                    <button class="buttons" id="btn" onclick="generatePDF()">
                         Download PDF
                     </button>
                 </div>
@@ -101,12 +101,7 @@
 
                 <div class="container-1">
                     <div class="item item-1">
-                        <h4> - Unit Converter</h4>
-                        <p>It converts the input value meters/feet vice&versa and more. | Built with HTML,CSS & JavaScript.</p>
-                        <div class="column-div">
-                            <a href="https://dafinlaw.github.io/unit-converter/" target="_blank">[Live Demo]</a>
-                            <a href="https://github.com/DafinLaw/unit-converter" target="_blank">[Source Code]</a>
-                        </div>
+                        <img src="./images/pass-generator.jpeg" id="passg">
                     </div>
                     <div class="item item-2">
                         <h4> - Password Generator</h4>
@@ -125,12 +120,7 @@
                         </div>
                     </div>
                     <div class="item item-4">
-                        <h4> - Basketball ScoreBoard</h4>
-                        <p>A basketball scoreboard web app, simple and easy to use | Built with HTML, CSS & JavaScript.</p>
-                        <div class="column-div">
-                            <a href="https://dafinlaw.github.io/basketball-scoreboard/" target="_blank">[Live Demo]</a>
-                            <a href="https://github.com/DafinLaw/basketball-scoreboard" target="_blank">[Source Code]</a>
-                        </div>
+                        <img src="./images/leads-tracker.jpg" id="leads">
                     </div>
                 </div>
             </section>
@@ -166,9 +156,19 @@
       <script>
         function generatePDF() {
             const element = document.getElementById('container');
-            html2pdf().from(element).save('Paul_Dascalu_CV.pdf');
+
+            const opt = {
+                margin:         0.3,
+                filename:       'Paul_Dascalu_CV_WebDev.pdf',
+                image:          { type: 'jpeg', quality: 1 },
+                html2canvas:    { scale: 2 },
+                jsPDF:          { unit: 'in', format: 'a4', orientation: 'portrait' }
+            };
+
+            html2pdf().set(opt).from(element).save();
         }
       </script>
+</html>
 
  </body>
 </html>

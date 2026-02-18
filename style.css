@@ -256,7 +256,7 @@ ul li {
 
 .project {
     margin-bottom: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     border-left: 2px solid white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -268,9 +268,19 @@ ul li {
     text-decoration: none;
 }
 
+#leads {
+    width: 100%;
+    max-width: 200px;
+}
+
+#passg {
+    width: 100%;
+    max-width: 150px;
+}
+
 .container-1 {
     display: grid;
-    grid-template-rows:  110px 110px;
+    grid-template-rows:  150px 110px;
     grid-template-columns: 10px 105px 100px 100px;
 }
 
