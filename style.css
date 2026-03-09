@@ -8,7 +8,7 @@
 
 body {
    background-color: #0f172a;
-   color: #e5e7eb;
+   color: #252525;
    line-height: 1.6;
    text-shadow: 0 0 5px rgba(1, 1, 1, 0.5);
    
@@ -63,7 +63,7 @@ nav {
 }
 
 a {
-    color: #38bdf8;
+    color: #252525;
     text-decoration: none;
     padding: 5px 0;
 }
@@ -78,7 +78,7 @@ a {
     max-height: 1100px;
     margin: 30px auto;
     padding: 30px;
-    background: #020617;
+    background: white;
     border-radius: 12px;
     box-shadow: 0 0 40px black;
     border: 1px solid rgba(0, 0 , 139, 0.5);
@@ -106,7 +106,7 @@ h1 {
     width: 150px;
     height: 145px;
     border-radius: 50%;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px #252525;
 }
 
 header h2 {
@@ -136,13 +136,10 @@ header h2 {
 }
 
 #contact-section {
-    margin-bottom: 5px;
     margin-right: 15px;
     font-size: 10px;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 5px;
-    border-bottom: 2px solid rgba(255,255,255,0.25);
 }
 
 .contact-btns {
@@ -192,7 +189,7 @@ header h2 {
 
 .link-decor {
     text-decoration: none;
-    color:white;
+    color: #252525;
 }
 
 section {
@@ -202,18 +199,18 @@ section {
 }
 
 h3 {
-    color: #38bdf8;
+    color: #252525;
     margin-bottom: 10px;
 
 }
 
 .color-subtitle {
-    color: #38bdf8;
+    color: #252525;
     margin-bottom: 10px;
 }
 
 #skill-list {
-    border-left: 2px solid white;
+    border-left: 2px solid #252525;
     border-radius: 10px;
     list-style: none;
     padding: 5px;
@@ -249,7 +246,7 @@ ul {
 #profile-section {
     width: 400px;
     padding-left: 10px;
-    border-left: 2px solid white;
+    border-left: 2px solid #252525;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -261,14 +258,13 @@ ul {
 .project {
     margin-bottom: 15px;
     padding-bottom: 15px;
-    border-left: 2px solid white;
+    border-left: 2px solid #252525;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
 }
 
-.project a {
-    color:#38bdf8;
+.project a {;
     text-decoration: none;
 }
 
