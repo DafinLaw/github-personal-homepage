@@ -94,75 +94,72 @@
     
         <div id="profile-summary">
             <section id="skills-section">
-                <p class="color-subtitle sum-padding">Skills:</p>
+                <p class="color-subtitle sum-padding">Abilitati:</p>
                 <ul id="skill-list">
-                    <li class="skill">Customer orientation</li>
-                    <li class="skill">Problem-solving abilities</li>
-                    <li class="skill">Attention to detail</li>
-                    <li class="skill">Time management under SLA requirements</li>
-                    <li class="skill">English communication (advanced)</li>
+                    <li class="skill">Orientare catre client</li>
+                    <li class="skill">Abilitate de rezolvare a problemelor</li>
+                    <li class="skill">Atentie la detaliu</li>
+                    <li class="skill">Menagerierea timpului</li>
+                    <li class="skill">Limba engleza la nivel avansat</li>
                 </ul>
             </section>
             <div>
             <section id="profile-section">
                 
-                    <h3>Profile</h3>
+                    <h3>Profil</h3>
                     <p>
-                        Detail-oriented professional with experience handling high-volume customer cases,
-                        documenting technical issues, and following structured processes. Seeking entry-level IT support or a customer facing role
-                        to apply troubleshooting mindset and structured problem resolution skills.
+                        Sunt o persoana orientata catre detaliu avand experienta cu volume mari de clienti, documentatul de probleme si probleme tehnice,
+                        si urmatul processelor si standardelor bine structurate. In prezent sunt in cautarea unei pozitii entry-level in IT support, retail
+                        sau customer service.
                     </p>
                     
 
-                    <h3>Experience</h3>
-                    <h4>Teleperformance — Content moderator/Customer Support (2025 May - 2026 Jan)</h4>
+                    <h3>Experienta</h3>
+                    <h4>Teleperformance — Moderator de continut/Customer Support (2025 Mai - 2026 Ian)</h4>
                         <ul>
-                                <li>- Communicated complex decisions clearly while maintaing professionalism</li>
+                                <li>- Am comunicat clar decizii complexe rezultand intr-o intelegere mai buna a ghidurilor</li>
 
-                                <li>- Investigated and moderated content according to platform guidelines</li>
+                                <li>- Am investigat si moderat continut respectand ghidurile, obtinand astfel o acuratete mare.</li>
 
-                                <li>- Managed high-volume case queues while maintaining accuracy and response deadlines</li>
-
-                                <li>- Managed sensitive cases requiring conflict resolution and policy enforcement</li>
+                                <li>- Am lucrat cu volume mari de cazuri in timp ce am mentinut o acuratete buna si un timp optim pentru termenele limita</li>
 
 
                         </ul>
-                    <h4>SBW Centru — Service Staff Fast Food (2024 Jul - 2025 May)</h4>
+                    <h4>SBW Centru — Lucrator Comercial (2024 Iul - 2025 Mai)</h4>
                         <ul>
-                                <li>- Provided efficient customer service in a fast-paced environment</li>
+                                <li>- Am luat comenzi rapid si eficient in timp ce am fost orientat catre nevoile clientului. Rezultand in clienti care se intorc tot mai des.</li>
 
-                                <li>- Collaborated with team members to ensure smooth operations</li>
+                                <li>- Am colaborat cu membrii echipei rezultand intr-un flux de munca eficient</li>
 
-                                <li>- Managed inventory and restocked supplies as needed</li>
+                                <li>- Am avut grija ca rafturile si vitrina sa fie sufficiente in orice moment astfel asigurandu-ma ca nu raman fara produse.</li>
 
-                                <li>- Maintained cleanliness and organization of the workspace</li>
+                                <li>- Am mentinut spatiul curat si organizat rezultand intr-un flux optim al muncii.</li>
                         </ul>
 
-                    <h4>Cartofisserie — Service Staff Fast Food (2023 May - 2024 June)</h4>
+                    <h4>Cartofisserie — Lucrator Comercial (2023 Mai - 2024 Iune)</h4>
                         <ul>
-                                <li>- Delivered high-quality customer service while managing multiple orders</li>
+                                <li>- Am recomandat produse la fiecare tranzactie crescand astfel cifra de afacere.</li>
 
-                                <li>- Worked collaboratively with team members to meet customer demands</li>
+                                <li>- Am colaborat cu membrii echipei rezultand intr-o satisfactie sporita a clientilor legata de servire</li>
 
-                                <li>- Maintained a clean and organized work environment</li>
+                                <li>- Am mentinut spatiul curat si organizat rezultand intr-un flux optim al muncii</li>
 
-                                <li>- Assisted in training new employees on company procedures and standards</li>
+                                <li>- Am asistat la instruirea noilor colegi rezultand in o cunoastere solida a procedurilor si standardelor companiei.</li>
                         </ul>
-                    <h3>Education</h3>
+                    <h3>Educatie</h3>
                     <h4>Web Development (ongoing study - Scrimba platform)</h4>
                         <ul>
-                            <li>- HTML, CSS, JavaScript fundamentals</li>
-                            <li>- Responsive design principles</li>
-                            <li>- Version control with Git</li>
-                            <li>- Basic understanding of web hosting and deployment</li>
+                            <li>- HTML, CSS, fundamente JavaScript</li>
+                            <li>- Principii de Responsive Design</li>
+                            <li>- Controlul versiunilor cu Github</li>
                         </ul>
-                    <h4>IT School — Cybersecurity Course
-                        Title: Programmer-Helper </h4>
+                    <h4>IT School — Curs introductiv in Cybersecurity
+                        Title: Ajutor Programator </h4>
                         <ul>
-                            <li>- Familiarity with Linux environments</li>
-                            <li>- Basic networking concepts</li>
-                            <li>- Understanding of data security principles(CIA)</li>
-                            <li>- Introductory SIEM exposure (Splunk)</li>
+                            <li>- Familiaritate cu medii Linux</li>
+                            <li>- Concepte de baza legate de networking</li>
+                            <li>- Intelegerea principiilor legate de securitate de date(CIA)</li>
+                            <li>- Introducere in SIEM(Splunk)</li>
                         </ul>
             </section>
         
